@@ -1,14 +1,55 @@
-.page {
-background-color: #F5F5F5;
-color: rgba(255, 255, 255, 0.6);
+:root {
+--main-color: #212121;
+--secondary-color: #757575;
+--accent-color: #2196F3;
+
+--main-font: 'Roboto', sans-serif;
 }
 
-.logo {
-    color: #2196F3;
+body {
+    font-family: var(--main-font); 
+    color: var(--main-color);
 }
 
-/*основной цвет #212121 */
-/*дополнительный цвет #757575 */
+/* Universal classes */
+.link {
+
+}
+.list {
+
+}
+.btn {
+
+}
+.btn:hover,
+.btn:focus {
+
+}
+.title {
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/* -----------HEADER----------- */
+/* -----------HERO----------- */
+/* -----------FEATURES----------- */
+/* -----------TEAMS----------- */
+
+/* -----------PORTFOLIO----------- */
+/* -----------FOOTER----------- */
+
+
+/*main-color #212121 */
+/*secondary-color #757575 */
 /* белый rgba(255, 255, 255, 0.6) */
-/*акцент #2196F3 */
+/*accent-color #2196F3 */
 /* фон background: #F5F5F5 */
