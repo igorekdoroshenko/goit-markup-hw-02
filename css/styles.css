@@ -3,7 +3,7 @@
 --secondary-color: #757575;
 --accent-color: #2196F3;
 --color-footer-mail-tel: rgba(255, 255, 255, 0.6);
---color-logo: #FFFFFF;
+--color-logo: #000000;
 --main-background: #F5F5F5;
 --background-hiro-footer: #2F303A;
 --background-comand: #F5F4FA;
@@ -12,7 +12,7 @@
 /*дополнитеный цвет #757575 */
 /*акцентный цвет #2196F3 */
 /* цвет футер mail tel rgba(255, 255, 255, 0.6) */
-/* цвет логотипа #FFFFFF
+/* цвет логотипа #000000*/
 /* основной фон background: #F5F5F5 */
 /* фон героя футер #2F303A*/
 /* фон команды #F5F4FA*/
@@ -26,19 +26,51 @@ body {
     color: var(--main-color);
 }
 
+ul {
+    list-style: none;
+}
+
 /* Universal classes */
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-logo);
+    text-decoration: none;
+}
+
+.logo-style {
+    color: var(--accent-color);
+}
+
 .link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 
 }
-.list {
+.link:hover{
+    color: var(--accent-color);
+}
 
+.mailto.link:hover {
+    color: var(--accent-color);
+}
+
+.list {
+list-style: none;
 }
 .btn {
 
 }
 .btn:hover,
 .btn:focus {
-
+color: var(--accent-color);
 }
 .title {
 
@@ -55,9 +87,27 @@ body {
 }
 
 /* -----------HEADER----------- */
+.header-nav {
+    color: var(--main-color);
+}
+.contact-nav {
+    color: var(--main-color);
+}
 /* -----------HERO----------- */
+.hero {
+    background: var(--background-hiro-footer);
+}
+.hero-title {
+    color: #FFFFFF;
+}
 /* -----------FEATURES----------- */
+.feature-list {
+    background: var(--main-background);
+}
 /* -----------TEAMS----------- */
+.team {
+    background: var(--main-background);
+}
 /* -----------PORTFOLIO----------- */
 /* -----------FOOTER----------- */
 
