@@ -63,9 +63,6 @@ ul {
 .link:hover{
     color: var(--accent-color);
 }
-.mailto .link:hover {
-    color: var(--accent-color);
-}
 .list {
     list-style: none;
 }
@@ -148,13 +145,7 @@ ul {
 .contact-nav:hover,
 .contact-nav:focus {
     color: var(--accent-color);
-}
-.contact-nav .list {
-    cursor: pointer;
 }    
-.contact-nav .link .current {
-    color: var(--accent-color);  
-}  
 /* -----------HERO----------- */
 .hero {
     background: var(--background-hiro-footer);
