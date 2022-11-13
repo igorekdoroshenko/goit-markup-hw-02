@@ -9,6 +9,8 @@
     --background-comand: #F5F4FA;
     --main-font: 'Roboto', sans-serif;
     --main-white-color: #FFFFFF;
+
+    
 }
    /*основной цвет #212121 */
    /*дополнитеный цвет #757575 */
@@ -31,7 +33,6 @@ ul {
 .logo {
     font-family: 'Raleway';
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -41,7 +42,6 @@ ul {
 .logo-color {
     font-family: Raleway;
     font-style: normal;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -77,13 +77,13 @@ ul {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 .btn:hover,
 .btn:focus {
     background: #188CE8;
 }
 .title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.33;
     letter-spacing: 0.03em;
@@ -98,7 +98,6 @@ ul {
     color: var(--main-color);
 }
 .text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -161,7 +160,6 @@ ul {
 
 /* -----------SECTION----------- */
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -188,6 +186,12 @@ background: var(--main-background);
     }   
 .footer-adress {
     color: var(--main-white-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .adress-list a {
     color: var(--color-footer-mail-tel);
@@ -215,14 +219,12 @@ background: var(--main-background);
    
 }
 .potfolio-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--main-color);
 }
 .potfolio-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
